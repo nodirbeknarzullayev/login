@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-image:linear-gradient(to right,  rgb(126, 126, 241), rgb(53, 131, 209), rgb(14, 170, 226), rgb(58, 58, 245)); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2rem;
+    width: 480px;
+    height: 80vh;
+}
+
+.header .icon {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header p {
+    font-weight: 100;
+    font-size: 30px;
+    color: #dddbdb;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.icon svg {
+    color: #fff;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-input {
+    border-bottom: 2px solid #fff;
+    width: 60%;
+}
+
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.check p, label {
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.check label {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+form button {
+    background-color: rgb(25, 140, 240);
+    width: 60%;
+    padding: 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px
+}
+
+.form-input input {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form-input svg {
+    color: #fff;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
